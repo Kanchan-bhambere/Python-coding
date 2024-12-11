@@ -15,7 +15,7 @@ obj=ABCD()
 obj.Show( )
 obj.Show('kanchan')
 obj.Show('kanchan', 'bhambere')
-
+"""
 
 def checkTriplet(array):
     n = len(array)
@@ -35,7 +35,7 @@ def checkTriplet(array):
 
 arr = [3, 2, 4, 6, 5]
 a=checkTriplet(arr)
-print(a)"""
+print(a)
 # True
 
 
