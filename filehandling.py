@@ -1,4 +1,4 @@
-"""
+
 f= open("D:\ToDoApp\Python-coding\overloading and overriding.py", "r")
 i=1
 while i<=10:
@@ -35,7 +35,7 @@ print(r(10,20))
 n=[1,2,3,4,5,6,7,8,9]
 a=list(map(lambda x: x**2,n))
 print(a)
-"""
+
 #split and join methods
 a= "I want to go home for vacation"
 s=(a.split(" "))
