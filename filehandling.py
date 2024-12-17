@@ -52,6 +52,20 @@ Else:
 O/P--->>> Reading completed
           File is closed
 
+# To delete file
+
+import os
+if os.path.exist("D:\ToDoApp\Python-coding\overloading and overriding.py"):
+    os.remove("D:\ToDoApp\Python-coding\overloading and overriding.py")
+    print("File deleted succesefully !")
+Else:
+  print("File is not available")
+O/P---->>> File deletd succesefully !
+
+
+
+
+
 s="Hello, Welcome Home"
 print(s[ : : -1])
 
