@@ -1,3 +1,4 @@
+Error are problems in program that stops the execution of programs. e.g syntax error
 Exception is nothing but the runtime error, it occuers due to incorrect implementation of logic.
 Exception handling is mechanism through which we can handle the runtime errors.
 
@@ -19,6 +20,7 @@ Else:
   print("Kanchan")
 o/p------>>> Exception Handle
 
+
 a=10
 b=2
 try:
@@ -32,3 +34,34 @@ Else:
 o/p------>>> Result is a : 5
              Kanchan
 
+try except & finally
+try:
+  # Some code that may raise an exception
+except:
+  # Handling specific exception
+   print(..)
+finally:
+  # Code that always executes, regardless of whether an exception occurred or not
+    print("Finally block executed")
+
+# Custom exception
+
+class myexception(Exception):
+    pass
+class error(myexception):
+    pass
+year=int(input("Enter your DOB year: "))
+age=2024-year
+try:
+    if 31>age>=18:
+        print("You are eligible for voting")
+    else:
+        raise error
+except error:
+    print("You are not eligible for the voting")
+    
+finally:
+    print("You are eligible for Adhar card")
+o/p----->>> Enter your DOB year: 2021
+            You are not eligible for the voting
+            You are eligible for Adhar card
