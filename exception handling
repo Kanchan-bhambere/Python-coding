@@ -1,0 +1,34 @@
+Exception is nothing but the runtime error, it occuers due to incorrect implementation of logic.
+Exception handling is mechanism through which we can handle the runtime errors.
+
+In try block we write code in which we are excepting the runtime error
+
+A=10
+B=0
+print(A/B)
+o/p---->>> Its give the zero division error
+
+a=10
+b=0
+try:
+  c=a/b
+  print("Result is a : ", c)
+except:
+  print("Exception Handle")
+Else:
+  print("Kanchan")
+o/p------>>> Exception Handle
+
+a=10
+b=2
+try:
+  c=a/b
+  print("Result is a : ", c)
+except:
+  print("Exception Handle")
+Else:
+  print("Kanchan")
+  
+o/p------>>> Result is a : 5
+             Kanchan
+
